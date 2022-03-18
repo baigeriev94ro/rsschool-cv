@@ -1,0 +1,174 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    min-height: 1000px;
+    background-color: #C8C8C8;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+    border-top: 4px solid black;
+}
+.container .left_side
+{
+    position: relative;
+}
+.nameTitle
+{
+    margin-top: 75px;
+    margin-left: 55px;
+    color: #101214;
+    line-height: 28px;
+}
+.nameTitle h1
+{
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.nameTitle h3
+{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.Experience
+{
+    margin: 55px 55px;
+}
+.Experience .title2
+{
+    color: #73808D;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.box
+{
+    margin-top: 20px;
+    line-height: 20px;
+}
+.box .job_name h5
+{
+    font-weight: 400;
+}
+.box .year h6
+{
+    font-weight: 500;
+    color: #73808D;
+}
+.box .text 
+{
+    font-weight: 400;
+    color: #101214;
+    font-size: 14px;
+}
+.container .right_side
+{
+    position: relative;
+}
+.imgBox 
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 32px 0px;
+    filter: drop-shadow(0px 2px 4px rgba(16, 18, 20, 0.08));
+}
+.imgBox img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contact ul
+{
+    position: relative;
+}
+.contact ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    color: #73808D;
+}
+.contact ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #365E85;
+}
+.title
+{
+    margin-bottom: 30px;
+    margin-top: 50px;
+    color: #365E85;
+    font-weight: 700;
+}
+.skill ul li
+{
+    list-style: none;
+    margin: 25px 50px 20px 0px;
+    color: #365E85;
+    font-weight: 400;
+}
+.skill .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: #d5d9dd;
+    display: block;
+    margin-top: 5px;
+}
+.skill .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #365E85;
+}
+.interest ul
+{
+    position: relative;
+}
+.interest ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    color: #73808D;
+}
+.interest ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #365E85;
+}
